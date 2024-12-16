@@ -16,10 +16,10 @@
     {"name":"Sons","order":3,"path":"folders/Sons.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Crabmeat","order":5,"path":"folders/Sprites/Crabmeat.yy",},
-    {"name":"Solo-Paredes","order":9,"path":"folders/Sprites/Solo-Paredes.yy",},
     {"name":"Hyper_Ring","order":6,"path":"folders/Sprites/Hyper_Ring.yy",},
-    {"name":"Sonic","order":7,"path":"folders/Sprites/Sonic.yy",},
     {"name":"Rings","order":8,"path":"folders/Sprites/Rings.yy",},
+    {"name":"Solo-Paredes","order":9,"path":"folders/Sprites/Solo-Paredes.yy",},
+    {"name":"Sonic","order":7,"path":"folders/Sprites/Sonic.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"oCrabmeat","order":2,"path":"objects/oCrabmeat/oCrabmeat.yy",},
