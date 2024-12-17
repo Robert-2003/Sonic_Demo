@@ -44,11 +44,17 @@ if place_meeting(x, y+vspd, obj_high_floor)
 
 y = y + vspd
 
-//PULO
+//JUMP
 if place_meeting(x,y+1,obj_high_floor) and key_jump
+
 {
-	vspd -= 8
+	vspd-=8
 	sprite_index = spr_sonic_jump
+}
+
+else if place_meeting(x, y+vspd, obj_high_floor) 
+{
+	sprite_index = spr_sonic_idle	
 }
 #endregion
 
