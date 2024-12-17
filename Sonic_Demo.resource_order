@@ -19,11 +19,11 @@
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sons","order":3,"path":"folders/Sons.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
+    {"name":"spr_enemy","order":4,"path":"folders/Sprites/spr_enemy.yy",},
     {"name":"spr_items","order":6,"path":"folders/Sprites/spr_items.yy",},
     {"name":"spr_hyper_ring","order":1,"path":"folders/Sprites/spr_items/spr_hyper_ring.yy",},
     {"name":"spr_player","order":5,"path":"folders/Sprites/spr_player.yy",},
     {"name":"spr_terrain","order":3,"path":"folders/Sprites/spr_terrain.yy",},
-    {"name":"spr_enemy","order":4,"path":"folders/Sprites/spr_enemy.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"spr_big_ring_flash","order":1,"path":"sprites/spr_big_ring_flash/spr_big_ring_flash.yy",},

@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_sonic_jump",
-  "bboxMode":0,
-  "bbox_bottom":42,
+  "bboxMode":2,
+  "bbox_bottom":46,
   "bbox_left":8,
-  "bbox_right":39,
+  "bbox_right":38,
   "bbox_top":12,
   "collisionKind":1,
   "collisionTolerance":0,
