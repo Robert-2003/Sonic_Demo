@@ -9,8 +9,8 @@
   "name":"obj_enemy_crabmeat",
   "overriddenProperties":[],
   "parent":{
-    "name":"objEnemy",
-    "path":"folders/Objetos/objEnemy.yy",
+    "name":"obj_enemy",
+    "path":"folders/Objetos/obj_enemy.yy",
   },
   "parentObjectId":null,
   "persistent":false,

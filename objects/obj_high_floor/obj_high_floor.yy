@@ -8,8 +8,8 @@
   "name":"obj_high_floor",
   "overriddenProperties":[],
   "parent":{
-    "name":"collison",
-    "path":"folders/Objetos/collison.yy",
+    "name":"floor",
+    "path":"folders/Objetos/obj_terrain/floor.yy",
   },
   "parentObjectId":null,
   "persistent":false,

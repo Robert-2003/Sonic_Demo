@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sonic",
-    "path":"folders/Sprites/Sonic.yy",
+    "name":"spr_sonic",
+    "path":"folders/Sprites/spr_player/spr_sonic.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

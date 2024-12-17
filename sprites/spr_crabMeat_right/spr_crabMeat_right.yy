@@ -28,7 +28,7 @@
   "origin":4,
   "parent":{
     "name":"Crabmeat",
-    "path":"folders/Sprites/SprEnemy/Crabmeat.yy",
+    "path":"folders/Sprites/spr_enemy/Crabmeat.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Solo-Paredes",
-    "path":"folders/Sprites/Solo-Paredes.yy",
+    "name":"spr_terrain",
+    "path":"folders/Sprites/spr_terrain.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

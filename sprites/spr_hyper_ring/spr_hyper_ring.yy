@@ -40,8 +40,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Hyper_Ring",
-    "path":"folders/Sprites/Hyper_Ring.yy",
+    "name":"spr_hyper_ring",
+    "path":"folders/Sprites/spr_items/spr_hyper_ring.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

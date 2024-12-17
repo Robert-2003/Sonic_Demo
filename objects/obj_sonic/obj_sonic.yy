@@ -10,8 +10,8 @@
   "name":"obj_sonic",
   "overriddenProperties":[],
   "parent":{
-    "name":"player",
-    "path":"folders/Objetos/player.yy",
+    "name":"obj_player",
+    "path":"folders/Objetos/obj_player.yy",
   },
   "parentObjectId":null,
   "persistent":false,

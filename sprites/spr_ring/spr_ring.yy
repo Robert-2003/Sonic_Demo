@@ -40,8 +40,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Rings",
-    "path":"folders/Sprites/Rings.yy",
+    "name":"spr_rings",
+    "path":"folders/Sprites/spr_items/spr_rings.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
