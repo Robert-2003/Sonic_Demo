@@ -8,9 +8,9 @@ vspd = vspd + grv
 
 if (hspd != 0) image_xscale = sign(hspd)
 
-if place_meeting(x+hspd, y, obj_high_floor)
+if place_meeting(x+hspd, y, obj_wall)
 {
-	while(!place_meeting(x+sign(hspd), y, obj_high_floor))
+	while(!place_meeting(x+sign(hspd), y, obj_wall))
 	{
 		x = x + sign(hspd)	
 	}
@@ -21,9 +21,9 @@ if place_meeting(x+hspd, y, obj_high_floor)
 x = x + hspd
 
 //COLISÃO VERTICAL
-if place_meeting(x, y+vspd, obj_high_floor)
+if place_meeting(x, y+vspd, obj_wall)
 {
-	while(!place_meeting(x, y+sign(vspd), obj_high_floor))
+	while(!place_meeting(x, y+sign(vspd), obj_wall))
 	{
 		y = y + sign(vspd)	
 	}

@@ -32,6 +32,8 @@
     {"name":"spr_sonic_crouch","order":3,"path":"sprites/spr_sonic_crouch/spr_sonic_crouch.yy",},
     {"name":"spr_sonic_jump","order":4,"path":"sprites/spr_sonic_jump/spr_sonic_jump.yy",},
     {"name":"spr_sonic_look_up","order":2,"path":"sprites/spr_sonic_look_up/spr_sonic_look_up.yy",},
+    {"name":"spr_sonic_run","order":5,"path":"sprites/spr_sonic_run/spr_sonic_run.yy",},
     {"name":"spr_sonic_walk","order":1,"path":"sprites/spr_sonic_walk/spr_sonic_walk.yy",},
+    {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
   ],
 }

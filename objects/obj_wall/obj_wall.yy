@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_high_floor",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_wall",
+  "eventList":[],
   "managed":true,
-  "name":"obj_high_floor",
+  "name":"obj_wall",
   "overriddenProperties":[],
   "parent":{
     "name":"floor",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_high_floor",
-    "path":"sprites/spr_high_floor/spr_high_floor.yy",
+    "name":"spr_wall",
+    "path":"sprites/spr_wall/spr_wall.yy",
   },
   "spriteMaskId":null,
   "visible":true,

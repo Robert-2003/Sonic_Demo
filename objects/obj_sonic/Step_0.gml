@@ -16,12 +16,10 @@ hspd = move * spd
 
 vspd = vspd + grv
 
-if (hspd != 0) image_xscale = sign(hspd)
-
 //COLISÃO HORIZONTAL
-if place_meeting(x+hspd, y, obj_high_floor)
+if place_meeting(x+hspd, y, obj_wall)
 {
-	while(!place_meeting(x+sign(hspd), y, obj_high_floor))
+	while(!place_meeting(x+sign(hspd), y, obj_wall))
 	{
 		x = x + sign(hspd)	
 	}
@@ -32,9 +30,9 @@ if place_meeting(x+hspd, y, obj_high_floor)
 x = x + hspd
 
 //COLISÃO VERTICAL
-if place_meeting(x, y+vspd, obj_high_floor)
+if place_meeting(x, y+vspd, obj_wall)
 {
-	while(!place_meeting(x, y+sign(vspd), obj_high_floor))
+	while(!place_meeting(x, y+sign(vspd), obj_wall))
 	{
 		y = y + sign(vspd)	
 	}
@@ -45,16 +43,40 @@ if place_meeting(x, y+vspd, obj_high_floor)
 y = y + vspd
 
 //JUMP
-if place_meeting(x,y+1,obj_high_floor) and key_jump
-
+if place_meeting(x,y+1,obj_wall) and key_jump
 {
 	vspd-=8
-	sprite_index = spr_sonic_jump
-}
-
-else if place_meeting(x, y+vspd, obj_high_floor) 
-{
-	sprite_index = spr_sonic_idle	
 }
 #endregion
 
+#region FRAMES
+//TROCA DE LADO
+if (hspd != 0) image_xscale = sign(hspd)
+
+//JUMP
+if !place_meeting(x,y+1,obj_wall)
+{
+	sprite_index = spr_sonic_jump
+}
+
+else if (hspd!= 0)
+{
+	sprite_index = spr_sonic_run
+}
+
+if hspd = 0
+{
+	if place_meeting(x,y+1,obj_wall)
+	{
+		sprite_index = spr_sonic_idle
+	}
+}
+
+if hspd != 0
+{
+	if place_meeting(x,y+1,obj_wall)
+	{
+		sprite_index = spr_sonic_run
+	}
+}
+#endregion

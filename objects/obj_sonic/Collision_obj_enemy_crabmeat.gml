@@ -3,7 +3,7 @@
 if ev_collision {
 	if (sprite_index = spr_sonic_jump)
 	{
-		instance_destroy(obj_enemy_crabmeat, true)
+		instance_destroy(obj_enemy_crabmeat)
 	}
 	else room_restart()	
 }
