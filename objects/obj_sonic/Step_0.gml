@@ -54,14 +54,14 @@ if place_meeting(x,y+1,obj_wall) and key_jump
 if (hspd != 0) image_xscale = sign(hspd)
 
 //JUMP
-if !place_meeting(x,y+1,obj_wall)
+if key_jump
 {
 	sprite_index = spr_sonic_jump
 }
 
-else if (hspd!= 0)
+else if (hspd!= 0) and place_meeting(x,y+1,obj_wall)
 {
-	sprite_index = spr_sonic_run
+	sprite_index = spr_sonic_walk
 }
 
 if hspd = 0
@@ -76,7 +76,7 @@ if hspd != 0
 {
 	if place_meeting(x,y+1,obj_wall)
 	{
-		sprite_index = spr_sonic_run
+		sprite_index = spr_sonic_walk
 	}
 }
 #endregion

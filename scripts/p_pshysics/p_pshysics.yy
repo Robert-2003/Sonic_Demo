@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"p_pshysics",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"p_pshysics",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

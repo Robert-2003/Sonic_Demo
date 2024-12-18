@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_sonic_jump",
   "bboxMode":2,
-  "bbox_bottom":46,
+  "bbox_bottom":47,
   "bbox_left":8,
   "bbox_right":38,
   "bbox_top":12,
