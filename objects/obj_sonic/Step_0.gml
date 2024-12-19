@@ -6,7 +6,7 @@ key_right = keyboard_check(vk_right) //DIREITA
 key_left = keyboard_check(vk_left) //ESQUERDA
 key_up = keyboard_check(vk_up) //CIMA
 key_down = keyboard_check(vk_down) //BAIXO
-key_jump = keyboard_check(vk_space)
+key_jump = keyboard_check_pressed(vk_space)
 #endregion
 
 #region MOVIMETAÇÃO
@@ -37,13 +37,16 @@ if place_meeting(x, y+vspd, obj_wall)
 		y = y + sign(vspd)	
 	}
 	
+	if vspd > 0
+	{
 	vspd = 0
+	}
 }
 
-y = y + vspd
+y += vspd
 
 //JUMP
-if place_meeting(x,y+1,obj_wall) and key_jump
+if place_meeting(x,y+1,obj_wall) and (keyboard_lastkey == vk_space) and key_jump
 {
 	vspd-=8
 }
@@ -54,29 +57,23 @@ if place_meeting(x,y+1,obj_wall) and key_jump
 if (hspd != 0) image_xscale = sign(hspd)
 
 //JUMP
-if key_jump
+if key_jump and place_meeting(x,y+1,obj_wall)
 {
 	sprite_index = spr_sonic_jump
 }
 
-else if (hspd!= 0) and place_meeting(x,y+1,obj_wall)
+else if (hspd!= 0) and place_meeting(x,y+1,obj_wall) and !key_jump
 {
 	sprite_index = spr_sonic_walk
 }
 
-if hspd = 0
+else if hspd = 0 and place_meeting(x,y+1,obj_wall) and !key_jump
 {
-	if place_meeting(x,y+1,obj_wall)
-	{
-		sprite_index = spr_sonic_idle
-	}
+	sprite_index = spr_sonic_idle
 }
 
-if hspd != 0
+else if hspd != 0 and place_meeting(x,y+1,obj_wall) and !key_jump
 {
-	if place_meeting(x,y+1,obj_wall)
-	{
-		sprite_index = spr_sonic_walk
-	}
+	sprite_index = spr_sonic_walk
 }
 #endregion
